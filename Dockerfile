@@ -18,4 +18,4 @@ WORKDIR /reposync
 
 EXPOSE 80
 
-ENTRYPOINT [ "/usr/local/bin/miniserve", "--dirs-first", "-p", "80", "--hide-theme-selector", "." ]
+ENTRYPOINT [ "/usr/bin/miniserve", "--dirs-first", "-p", "80", "--hide-theme-selector", "." ]
